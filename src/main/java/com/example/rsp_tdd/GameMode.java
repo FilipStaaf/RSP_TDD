@@ -3,8 +3,9 @@ package com.example.rsp_tdd;
 import java.util.Scanner;
 
 public class GameMode {
+    Scanner scan = new Scanner(System.in);
     public void GameMode() {
-        Scanner scan = new Scanner(System.in);
+
 
         boolean whileChecker = false;
 

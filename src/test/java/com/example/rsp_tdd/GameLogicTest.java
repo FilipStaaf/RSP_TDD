@@ -11,11 +11,18 @@ class GameLogicTest {
     void setUp() {
     }
 
-//    @Test
-//    void test_random() {
-//        GameLogic gameLogic = new GameLogic("", "");
-//        assertEquals("Sten", gameLogic);
-////        assertEquals("Påse", gameLogic.RandomGenerator("computer"));
-////        assertEquals("Sax", gameLogic.RandomGenerator("computer"));
-//    }
+   /* @Test
+    void test_random() {
+        GameLogic gameLogic = new GameLogic("", "");
+        assertEquals("Sax", gameLogic.RandomGenerator("",2));
+        assertEquals("Sten", gameLogic.RandomGenerator("",0));
+        assertEquals("Påse", gameLogic.RandomGenerator("",1));
+    }*/
+
+    @Test
+    void test_random(){
+        GameLogic gameLogic = new GameLogic("Sten", "Paper");
+
+
+    }
 }

@@ -7,9 +7,10 @@ public class PvE {
     Scanner scan = new Scanner(System.in);
     String player1;
     public PvE() {
-        player1 = scan.nextLine();
-        String player2 = null;
+
+        String player2 = "";
         System.out.println("Skriv Sten, Påse eller Sax ");
+        player1 = scan.nextLine();
         if(player1.equals("Sten") || player1.equals("Påse") || player1.equals("Sax")){
             GameLogic gameLogic = new GameLogic(player1, player2);
         }else{
