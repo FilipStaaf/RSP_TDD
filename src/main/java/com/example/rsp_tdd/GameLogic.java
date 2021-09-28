@@ -17,7 +17,7 @@ public class GameLogic {
             System.out.println("Spelare 1 valde: " + player1 + " Datorn valde: " + player2 );
             Winner(player1,player2);
         }else{
-
+            //Test
         }
 
     }
