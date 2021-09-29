@@ -6,7 +6,6 @@ public class GameMode {
     Scanner scan = new Scanner(System.in);
     public void GameMode() {
 
-
         boolean whileChecker = false;
 
         while (!whileChecker) {
@@ -23,13 +22,20 @@ public class GameMode {
             case 1 -> {
                 PvE pve = new PvE();
                 whileChecker = true;
+
             }
             case 2 -> {
                 PvP pvp = new PvP();
                 whileChecker = true;
+
             }
             default -> System.out.println("Ogiltligt val");
         }
         return whileChecker;
+    }
+
+    public GameLogic createComputerGame(String userName) {
+
+        return null;
     }
 }
